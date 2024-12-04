@@ -1,0 +1,29 @@
+body{
+  font-family: Arial,sans-serif;
+  text-align: center;
+}
+#fact-container{
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#get-fact-btn{
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#get-fact-btn:hover{
+background-color: #3e8e41;
+}
+#loading-message{
+  font-style: italic;
+  color: #666;
+}
+#fact{
+  font-weight: bold;
+}
